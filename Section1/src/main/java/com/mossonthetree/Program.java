@@ -27,7 +27,7 @@ public class Program {
         System.out.println("You got " + incorrectAnswers + " incorrect answers.");
         float percentage = correctAnswers * 100.0f / questions.length;
         System.out.println("You scored " + percentage + "%.");
-    
+
 
     static String getInput() {
         try {
@@ -71,7 +71,7 @@ public class Program {
                         "No"
                 },
                 1);
-        questions[4] = new Question("How many cases would a switch have if iut operated on a boolean type",
+        questions[4] = new Question("How many cases would a switch have if it operated on a boolean type",
                 new String[]{
                         "Two, with optional default case",
                         "Two",
