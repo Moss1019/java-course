@@ -1,0 +1,22 @@
+subprojects {
+    apply plugin: 'java'
+    apply plugin: 'maven-publish'
+
+    group 'com.mossonthetree'
+    version '1.0'
+
+    repositories {
+        mavenLocal()
+        mavenCentral()
+    }
+
+    dependencies {
+
+        testImplementation 'org.junit.jupiter:junit-jupiter-api:5.11.0'
+        testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.11.0'
+    }
+
+    test {
+        useJUnitPlatform()
+    }
+}
