@@ -1,0 +1,15 @@
+
+plugins {
+    id 'io.quarkus'
+}
+
+dependencies {
+    implementation enforcedPlatform("io.quarkus.platform:quarkus-bom:3.15.1")
+    implementation 'io.quarkus:quarkus-resteasy-reactive-jsonb'
+    implementation 'io.quarkus:quarkus-arc'
+    implementation 'io.quarkus:quarkus-smallrye-openapi:3.15.1'
+
+    implementation 'com.google.code.gson:gson:2.10.1'
+
+    implementation project(path: ':account-data-lib')
+}
