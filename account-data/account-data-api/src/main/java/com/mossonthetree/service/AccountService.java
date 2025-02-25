@@ -21,4 +21,19 @@ public class AccountService {
     public List<Account> getAll() {
         return repo.getAll();
     }
+
+    public Account delete(String userName) {
+        return repo.delete(userName);
+    }
+
+    public Account update(Account account) {
+        List<Account> accounts = getAll();
+        boolean found = accounts.stream().anyMatch((Account a) -> {
+            return a.userName.equals(account.userName);
+        });
+        if(found) {
+            return repo.update(account);
+        }
+        return account;
+    }
 }

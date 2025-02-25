@@ -1,0 +1,7 @@
+
+dependencies {
+    implementation 'org.jooq:jooq-codegen:3.19.14'
+
+    testImplementation platform('org.junit:junit-bom:5.10.0')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+}

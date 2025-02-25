@@ -1,5 +1,6 @@
 package com.mossonthetree.file;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 
@@ -20,5 +21,10 @@ public class FileHandler {
             System.out.println(ex.getMessage());
             return "";
         }
+    }
+
+    public boolean delete(String fileName) {
+        File file = new File(fileName);
+        return file.delete();
     }
 }
