@@ -42,8 +42,6 @@ public class Program {
         System.out.println(gabrielAsSE.getMode());
         System.out.println(gabrielAsSE.kilometersTraveled);
 
-
-
         JsonSerializer json = new JsonSerializer();
         json.write(dosfol);
 
