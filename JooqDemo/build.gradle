@@ -1,0 +1,22 @@
+plugins {
+    id 'java'
+}
+
+group = 'com.mossonthetree'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.postgresql:postgresql:42.6.0'
+    implementation 'org.jooq:jooq-codegen:3.19.14'
+
+    testImplementation platform('org.junit:junit-bom:5.10.0')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+}
+
+test {
+    useJUnitPlatform()
+}
