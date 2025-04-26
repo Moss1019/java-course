@@ -3,13 +3,13 @@ plugins {
 }
 
 dependencies {
-    implementation enforcedPlatform("io.quarkus.platform:quarkus-bom:3.15.1")
-    implementation 'io.quarkus:quarkus-resteasy-reactive-jsonb'
+    implementation enforcedPlatform("io.quarkus.platform:quarkus-bom:3.19.4")
+    implementation 'io.quarkus:quarkus-rest-jsonb:3.19.4'
     implementation 'io.quarkus:quarkus-arc'
-    implementation 'io.quarkus:quarkus-smallrye-openapi:3.15.1'
+    implementation 'io.quarkus:quarkus-smallrye-openapi:3.19.4'
+
+    implementation 'org.jooq:jooq:3.19.14'
 
     implementation project(path: ':trade-data-db')
-
-    testImplementation platform('org.junit:junit-bom:5.10.0')
-    testImplementation 'org.junit.jupiter:junit-jupiter'
+    implementation project(path: ':trade-data-lib')
 }

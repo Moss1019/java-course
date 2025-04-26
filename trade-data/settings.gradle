@@ -1,12 +1,12 @@
 pluginManagement {
     repositories {
-        mavenLocal()
         mavenCentral()
         gradlePluginPortal()
+        mavenLocal()
     }
 
     plugins {
-        id "io.quarkus" version "3.15.1"
+        id "io.quarkus" version "3.19.4"
     }
 }
 
@@ -14,4 +14,3 @@ rootProject.name = 'trade-data'
 include 'trade-data-lib'
 include 'trade-data-api'
 include 'trade-data-db'
-

@@ -1,0 +1,5 @@
+rootProject.name = 'FileShare'
+include 'fileshare-server'
+include 'fileshare-client'
+include 'fileshare-lib'
+

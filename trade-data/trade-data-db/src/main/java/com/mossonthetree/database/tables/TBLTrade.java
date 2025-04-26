@@ -52,12 +52,12 @@ public class TBLTrade extends TableImpl<TBLTradeRecord> {
     /**
      * The column <code>public.trade.trade_id</code>.
      */
-    public final TableField<TBLTradeRecord, String> TRADE_ID = createField(DSL.name("trade_id"), SQLDataType.CHAR(32).nullable(false), this, "");
+    public final TableField<TBLTradeRecord, String> TRADE_ID = createField(DSL.name("trade_id"), SQLDataType.CHAR(36).nullable(false), this, "");
 
     /**
      * The column <code>public.trade.account_id</code>.
      */
-    public final TableField<TBLTradeRecord, String> ACCOUNT_ID = createField(DSL.name("account_id"), SQLDataType.CHAR(32), this, "");
+    public final TableField<TBLTradeRecord, String> ACCOUNT_ID = createField(DSL.name("account_id"), SQLDataType.CHAR(36), this, "");
 
     /**
      * The column <code>public.trade.instrument</code>.

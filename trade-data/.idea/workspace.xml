@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="366c6821-8a97-4fe9-947a-f6c2ef88ffc0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../JooqDemo/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JooqDemo/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JooqDemo/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JooqDemo/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../account-data/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../account-data/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../account-data/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../account-data/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../account-data/account-data-api/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../account-data/account-data-api/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../account-data/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../account-data/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trade-data-api/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/trade-data-api/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trade-data-api/src/main/java/com/mossonthetree/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/trade-data-api/src/main/java/com/mossonthetree/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trade-data-api/src/main/java/com/mossonthetree/repository/TradeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/trade-data-api/src/main/java/com/mossonthetree/repository/TradeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trade-data-api/src/main/java/com/mossonthetree/resource/HealthResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/trade-data-api/src/main/java/com/mossonthetree/resource/HealthResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trade-data-api/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/trade-data-api/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trade-data-db/src/main/java/com/mossonthetree/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/trade-data-db/src/main/java/com/mossonthetree/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trade-data-db/src/main/java/com/mossonthetree/database/DefaultCatalog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trade-data-db/src/main/java/com/mossonthetree/database/Keys.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trade-data-db/src/main/java/com/mossonthetree/database/TBLPublic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trade-data-db/src/main/java/com/mossonthetree/database/Tables.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trade-data-db/src/main/java/com/mossonthetree/database/tables/TBLTrade.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trade-data-db/src/main/java/com/mossonthetree/database/tables/records/TBLTradeRecord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trade-data-db/src/main/resources/create.sql" beforeDir="false" afterPath="$PROJECT_DIR$/trade-data-db/src/main/resources/create.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trade-data-lib/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/trade-data-lib/build.gradle" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2wE7ftLS1jpS6lPInglXNYORwEV" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.Build trade-data.executor": "Run",
+    "Gradle.trade-data:trade-data-api [:trade-data-api:com.mossonthetree.Program.main()].executor": "Run",
+    "Gradle.trade-data:trade-data-db [:trade-data-db:com.mossonthetree.Program.main()].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Quarkus.trade-data.trade-data-api.main.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/moss/Repos/java-course/trade-data",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.trade-data-api">
+    <configuration name="trade-data-api" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="23" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.mossonthetree.Program" />
+      <module name="trade-data.trade-data-api.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="trade-data-db" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="23" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.mossonthetree.Program" />
+      <module name="trade-data.trade-data-db.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="trade-data.trade-data-api.main" type="QuarkusRunConfigurationType" factoryName="Quarkus" nameIsGenerated="true">
+      <module name="trade-data.trade-data-api.main" />
+      <QsGradleRunConfiguration>
+        <ExternalSystemSettings>
+          <option name="executionName" />
+          <option name="externalProjectPath" value="$PROJECT_DIR$/trade-data-api" />
+          <option name="externalSystemIdString" value="GRADLE" />
+          <option name="scriptParameters" />
+          <option name="taskDescriptions">
+            <list />
+          </option>
+          <option name="taskNames">
+            <list>
+              <option value="quarkusDev" />
+            </list>
+          </option>
+          <option name="vmOptions" />
+        </ExternalSystemSettings>
+        <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+        <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+        <DebugAllEnabled>false</DebugAllEnabled>
+        <RunAsTest>false</RunAsTest>
+        <profile>dev</profile>
+      </QsGradleRunConfiguration>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.trade-data-api" />
+      <item itemvalue="Application.trade-data-db" />
+      <item itemvalue="Quarkus.trade-data.trade-data-api.main" />
+    </list>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.23774.435" />
+        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-IU-251.23774.435" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="366c6821-8a97-4fe9-947a-f6c2ef88ffc0" name="Changes" comment="" />
+      <created>1745594986836</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1745594986836</updated>
+      <workItem from="1745594987888" duration="2022000" />
+      <workItem from="1745611278878" duration="3924000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/trade-data-api/src/main/java/com/mossonthetree/resource/TradeResource.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/trade-data-api/src/main/java/com/mossonthetree/service/TradeService.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/trade-data-api/src/main/java/com/mossonthetree/repository/TradeRepository.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/trade-data-api/src/main/java/com/mossonthetree/repository/TradeRepository.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

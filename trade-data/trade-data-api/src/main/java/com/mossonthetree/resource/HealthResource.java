@@ -12,7 +12,7 @@ public class HealthResource {
     @GET()
     @Path("")
     @Produces(MediaType.APPLICATION_JSON)
-    public Map<String, String> getHealth() {
+    public Map<String, String> get() {
         return Map.of("status", "UP");
     }
 }

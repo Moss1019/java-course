@@ -11,7 +11,7 @@ public class Program implements QuarkusApplication {
     }
 
     @Override
-    public int run(String... args) {
+    public int run(String... args) throws Exception {
         Quarkus.waitForExit();
         return 0;
     }
