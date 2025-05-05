@@ -1,6 +1,6 @@
 # java-course
 
-The topics covered here should give you enough to be able to create your own web applications.
+The topics covered here should give you enough to be able to create your own web applications. It's a whopping 9 hours long at this point. Some dudes made bang with a 9 hour course...
 
 - Java basics
 - JOOQ and postgresql
