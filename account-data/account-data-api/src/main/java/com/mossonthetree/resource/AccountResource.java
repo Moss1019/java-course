@@ -1,5 +1,6 @@
 package com.mossonthetree.resource;
 
+import com.mossonthetree.client.AccountClient;
 import com.mossonthetree.model.Account;
 import com.mossonthetree.service.AccountService;
 import jakarta.ws.rs.DELETE;
@@ -15,7 +16,7 @@ import org.eclipse.microprofile.openapi.annotations.parameters.RequestBody;
 import java.util.List;
 
 @Path("api/accounts")
-public class AccountResource {
+public class AccountResource implements AccountClient {
     private final AccountService service;
 
     public AccountResource(AccountService service) {
@@ -36,11 +37,18 @@ public class AccountResource {
         return service.getAll();
     }
 
-    @DELETE()
-    @Path("{user-name}")
+    @GET()
+    @Path("{account-id}")
     @Produces(MediaType.APPLICATION_JSON)
-    public Account delete(@PathParam("user-name") String userName) {
-        return service.delete(userName);
+    public Account getById(@PathParam("account-id") String accountId) {
+        return service.getById(accountId);
+    }
+
+    @DELETE()
+    @Path("{account-id}")
+    @Produces(MediaType.APPLICATION_JSON)
+    public Account delete(@PathParam("account-id") String accountId) {
+        return service.delete(accountId);
     }
 
     @PUT()

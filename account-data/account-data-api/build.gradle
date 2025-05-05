@@ -4,10 +4,10 @@ plugins {
 }
 
 dependencies {
-    implementation enforcedPlatform("io.quarkus.platform:quarkus-bom:3.19.3")
-    implementation 'io.quarkus:quarkus-rest-jsonb:3.19.3'
-    implementation 'io.quarkus:quarkus-arc:3.19.3'
-    implementation 'io.quarkus:quarkus-smallrye-openapi:3.19.3'
+    implementation enforcedPlatform("io.quarkus.platform:quarkus-bom:3.19.4")
+    implementation 'io.quarkus:quarkus-smallrye-openapi:3.19.4'
+    implementation 'io.quarkus:quarkus-rest-jsonb:3.19.4'
+    implementation 'io.quarkus:quarkus-arc:3.19.4'
 
     implementation 'com.google.code.gson:gson:2.10.1'
 

@@ -9,7 +9,6 @@ import jakarta.enterprise.context.ApplicationScoped;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Optional;
 
 @ApplicationScoped()
 public class AccountRepository {
@@ -40,7 +39,7 @@ public class AccountRepository {
         Gson gson = new Gson();
         String json = gson.toJson(account);
         FileHandler handler = new FileHandler();
-        String fileName = account.userName + ".json";
+        String fileName = account.accountId + ".json";
         handler.save(fileName, json);
         fileNames.add(fileName);
         return account;
@@ -58,14 +57,29 @@ public class AccountRepository {
         return res;
     }
 
-    public Account delete(String userName) {
-        String fileName = String.format("%s.json", userName);
+    public Account getById(String accountId) {
+        String fileName = String.format("%s.json", accountId);
+        if(fileNames.contains(fileName)) {
+            List<Account> accounts = getAll();
+            return accounts
+                    .stream()
+                    .filter((Account a) -> {
+                        return a.accountId.equals(accountId);
+                    })
+                    .findFirst()
+                    .get();
+        }
+        return null;
+    }
+
+    public Account delete(String accountId) {
+        String fileName = String.format("%s.json", accountId);
         if(fileNames.contains(fileName)) {
             List<Account> accounts = getAll();
             Account account = accounts
                     .stream()
                     .filter((Account a) -> {
-                        return a.userName.equals(userName);
+                        return a.accountId.equals(accountId);
                     })
                     .findFirst()
                     .get();
@@ -78,7 +92,7 @@ public class AccountRepository {
     }
 
     public Account update(Account account) {
-        String fileName = String.format("%s.json", account.userName);
+        String fileName = String.format("%s.json", account.accountId);
         Gson gson = new Gson();
         String json = gson.toJson(account);
         FileHandler handler = new FileHandler();

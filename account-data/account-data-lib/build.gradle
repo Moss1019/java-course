@@ -1,0 +1,14 @@
+
+dependencies {
+    implementation 'io.quarkus:quarkus-smallrye-openapi:3.19.4'
+
+    implementation 'io.quarkus:quarkus-rest-client-jsonb:3.19.4'
+}
+
+publishing {
+    publications {
+        maven(MavenPublication) {
+            from components.java
+        }
+    }
+}

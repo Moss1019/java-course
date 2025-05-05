@@ -5,6 +5,7 @@ import com.mossonthetree.repository.AccountRepository;
 import jakarta.enterprise.context.ApplicationScoped;
 
 import java.util.List;
+import java.util.UUID;
 
 @ApplicationScoped()
 public class AccountService {
@@ -15,6 +16,7 @@ public class AccountService {
     }
 
     public Account create(Account account) {
+        account.accountId = UUID.randomUUID().toString();
         return repo.create(account);
     }
 
@@ -22,8 +24,12 @@ public class AccountService {
         return repo.getAll();
     }
 
-    public Account delete(String userName) {
-        return repo.delete(userName);
+    public Account getById(String accountId) {
+        return repo.getById(accountId);
+    }
+
+    public Account delete(String accountId) {
+        return repo.delete(accountId);
     }
 
     public Account update(Account account) {

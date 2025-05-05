@@ -1,0 +1,3 @@
+rootProject.name = 'ArtemisDemo'
+include 'AretmisProducer'
+include 'ArtemisConsumer'
